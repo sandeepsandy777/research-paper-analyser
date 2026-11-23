@@ -1,0 +1,67 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1201 >>
+stream
+BT /F1 18 Tf 50 720 Td (Deep Learning for Medical Diagnosis: An Empirical Study) Tj ET
+BT /F1 12 Tf 50 690 Td (Authors: Dr. Alex Turner, Dr. Sarah Lin - Department of AI & CS) Tj ET
+BT /F1 14 Tf 50 650 Td (Abstract) Tj ET
+BT /F1 10 Tf 50 630 Td (Automated medical image classification has made notable breakthroughs using convolutional architectures.) Tj ET
+BT /F1 10 Tf 50 615 Td (In this paper, we introduce MedVisionNet, a novel lightweight convolutional neural network) Tj ET
+BT /F1 10 Tf 50 600 Td (engineered specifically to detect diabetic retinopathy from retinal fundus photographs.) Tj ET
+BT /F1 10 Tf 50 585 Td (Experimental evaluations show MedVisionNet achieves an accuracy of 94.8 percent on the test benchmark.) Tj ET
+BT /F1 14 Tf 50 550 Td (1. Introduction and Problem Statement) Tj ET
+BT /F1 10 Tf 50 530 Td (Early diagnosis of retinal diseases prevents irreversible vision impairment in diabetes patients.) Tj ET
+BT /F1 10 Tf 50 515 Td (Traditional manual clinical screening is labor-intensive, costly, and prone to diagnostic delays.) Tj ET
+BT /F1 10 Tf 50 500 Td (Our main contribution is an optimized residual feature extractor tailored for high-resolution retinal images.) Tj ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1407 >>
+stream
+BT /F1 14 Tf 50 720 Td (2. Methodology: MedVisionNet Architecture) Tj ET
+BT /F1 10 Tf 50 700 Td (MedVisionNet utilizes a 24-layer depthwise separable convolutional backbone.) Tj ET
+BT /F1 10 Tf 50 685 Td (We integrate Spatial Attention Modules to isolate vascular lesions and microaneurysms.) Tj ET
+BT /F1 10 Tf 50 670 Td (Optimization: AdamW optimizer was utilized with a cosine annealing learning rate scheduler.) Tj ET
+BT /F1 10 Tf 50 655 Td (Initial learning rate: 0.0003, Batch size: 32, Weight decay: 0.01.) Tj ET
+BT /F1 14 Tf 50 615 Td (3. Experimental Results) Tj ET
+BT /F1 10 Tf 50 595 Td (The model was trained and evaluated on the EyePACS and Messidor-2 benchmark datasets.) Tj ET
+BT /F1 10 Tf 50 580 Td (Performance metrics achieved: Accuracy: 94.8 percent, Precision: 93.2 percent, Recall: 95.1 percent, F1-Score: 94.1 percent.) Tj ET
+BT /F1 10 Tf 50 565 Td (MedVisionNet requires only 4.2 million parameters, a 70 percent reduction compared to ResNet-50.) Tj ET
+BT /F1 14 Tf 50 525 Td (4. Limitations and Future Work) Tj ET
+BT /F1 10 Tf 50 505 Td (Limitations: The dataset primarily contains images from adult cohorts; pediatric data was not evaluated.) Tj ET
+BT /F1 10 Tf 50 490 Td (Additionally, performance degrades under extreme optical motion blur.) Tj ET
+BT /F1 10 Tf 50 475 Td (Future work will incorporate multimodal patient demographic records and self-supervised pretraining.) Tj ET
+
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000001500 00000 n 
+0000001570 00000 n 
+0000001696 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3155
+%%EOF

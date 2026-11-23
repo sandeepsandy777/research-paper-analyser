@@ -1,0 +1,41 @@
+# ==============================================================================
+# Git Ignore Configuration for AI Research Paper Assistant
+# ==============================================================================
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit secrets and environment variables (NEVER commit secrets!)
+.streamlit/secrets.toml
+.streamlit/*.toml
+!.streamlit/secrets.toml.example
+!.streamlit/config.toml
+.env
+.env.*
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+*.tmp
